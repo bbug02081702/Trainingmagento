@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add id="Taimagento_Training::greetings" title="Greetings" translate="title" module="Taimagento_Training" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="Taimagento_Training" resource="Taimagento_Training::greetings"/>
+      <add id="Taimagento_Training::greetings_student" title="admin index" translate="title" module="Taimagento_Training" parent="Taimagento_Training::greetings" sortOrder="10" dependsOnModule="Taimagento_Training" action="admin/student" resource="Taimagento_Training::greetings"/>
+    </menu>
+</config>

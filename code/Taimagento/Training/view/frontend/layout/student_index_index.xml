@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Trang index</title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Taimagento\Training\Block\Index" name="student_index" template="Taimagento_Training::index.phtml" />
+        </referenceContainer>
+    </body>
+</page>
